@@ -56,3 +56,12 @@ footer { text-align: center; color: var(--muted); font-size: 13px; padding: 12px
 .daynav-step.off{opacity:.35;pointer-events:none}
 @media(max-width:560px){.daynav-brand{display:none}}
 @media print{.daynav{display:none}}
+
+/* ===== One-line lesson rows ===== */
+.lesson .label { display: inline; margin-right: 6px; }
+.lesson audio { margin-top: 6px; }
+
+/* ===== Improvement targets ===== */
+.tip + .tip { margin-top: 14px; }
+.tip h3 { margin-bottom: 4px; }
+.tip .sub { font-size: 13px; margin-bottom: 8px; }
